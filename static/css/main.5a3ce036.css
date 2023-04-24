@@ -1,0 +1,2 @@
+:root{--app-height:100%}html{font-size:10px}body{background-color:#24455e;font-family:Jost,sans-serif;font-size:1.6rem;margin:0}body,html{height:100vh;margin:0;overflow:hidden;padding:0;width:100vw}#popUps,#root,body,html{height:100%;height:var(--app-height)}*{box-sizing:border-box}#popUps{position:relative;z-index:100}::-webkit-scrollbar{background:#2e2e2e;height:4px;width:6px}::-webkit-scrollbar-thumb{background:#a9a9a9;border-radius:15px}h1,h2,h3,h4,h5,h6,p{margin:0}
+/*# sourceMappingURL=main.5a3ce036.css.map*/
