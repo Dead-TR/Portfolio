@@ -11,6 +11,7 @@ Description:
 An interactive web game advertisement that demonstrates its basic gameplay through a simple example.
 
 Technologies: JS, Phaser
+
 [Demo](https://dead-tr.github.io/Portfolio/#/dogAds)
 
 ### Scratcher
@@ -20,4 +21,5 @@ Description:
 An interactive lottery game advertisement.
 
 Technologies: JS, Phaser, Spine
+
 [Demo](https://dead-tr.github.io/Portfolio/#/scratcher)
