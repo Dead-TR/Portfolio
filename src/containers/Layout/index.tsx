@@ -1,4 +1,6 @@
 import { useEffect, useRef } from "react";
+import { Helmet } from "react-helmet";
+
 import { usePath } from "hooks";
 import { Routes } from "./routeComponents";
 
@@ -12,7 +14,15 @@ const Layout = () => {
     });
   }, [page.path]);
 
-  return <Routes />;
+  return (
+    <>
+      <Helmet>
+        <title>Projects</title>
+      </Helmet>
+
+      <Routes />
+    </>
+  );
 };
 
 export default Layout;

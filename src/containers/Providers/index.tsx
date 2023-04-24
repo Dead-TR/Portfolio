@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, HashRouter } from "react-router-dom";
 import { PathProvider } from "hooks";
 
 interface Props {
@@ -9,11 +9,11 @@ interface Props {
 const Providers: FC<Props> = ({ children }) => {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <PathProvider>
           <>{children}</>
         </PathProvider>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 };

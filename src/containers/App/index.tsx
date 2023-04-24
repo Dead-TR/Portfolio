@@ -1,11 +1,9 @@
 import React, { Component, ErrorInfo, Suspense } from "react";
 
-import { lazyLoad } from "config/utils";
 import type { ErrorProps } from "./components/ErrorComponent";
-
-const ErrorPage = lazyLoad(() => import("./components/ErrorComponent"));
-const Providers = lazyLoad(() => import("../Providers"));
-const Layout = lazyLoad(() => import("../Layout"));
+import ErrorPage from "./components/ErrorComponent";
+import Providers from "containers/Providers";
+import Layout from "containers/Layout";
 
 interface State {
   error?: ErrorProps;

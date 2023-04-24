@@ -8,3 +8,4 @@ export * from "./between";
 export * from "./createIntervals";
 export * from "./rangeBetween";
 export * from "./copy";
+export * from "./fontLoader";
